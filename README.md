@@ -26,28 +26,4 @@ COIN is a professional-grade social media platform where users **must** create o
 ❤️ Credits
 Built with passion by @Chilli FleX!
 
-yaml
-Copy
-Edit
-
----
-
-### 📄 **.gitignore** (Ignore Unwanted Files)  
-```gitignore
-# Ignore OS files
-.DS_Store
-Thumbs.db
-
-# Ignore IDE files
-.vscode/
-*.log
-
-# Ignore Node.js files (if later used)
-node_modules/
-package-lock.json
-
-# Ignore Supabase Env Files
-.env
-
-
 # 🚀 LET'S GO!
