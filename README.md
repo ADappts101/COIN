@@ -14,4 +14,40 @@ COIN is a professional-grade social media platform where users **must** create o
 - **Backend**: Supabase (Auth & Realtime DB)  
 - **Hosting**: GitHub Pages  
 
+💡 Future Features
+> Friend Requests & Roles
+
+> Custom Clan Badges
+
+> Clan Leaderboard
+
+> Voice Messaging
+
+❤️ Credits
+Built with passion by @Chilli FleX!
+
+yaml
+Copy
+Edit
+
+---
+
+### 📄 **.gitignore** (Ignore Unwanted Files)  
+```gitignore
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+*.log
+
+# Ignore Node.js files (if later used)
+node_modules/
+package-lock.json
+
+# Ignore Supabase Env Files
+.env
+
+
 # 🚀 LET'S GO!
