@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COIN - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>COIN Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clans.html">My Clans</a></li>
+                <li><a href="explore.html">Explore Clans</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="user-info">
+            <h2>Welcome, <span id="username">User</span>!</h2>
+            <p>Your Clans:</p>
+            <ul id="userClans">
+                <!-- Populated dynamically -->
+            </ul>
+        </section>
+
+        <section class="latest-posts">
+            <h2>Latest Clan Posts</h2>
+            <div id="posts">
+                <!-- Populated dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 COIN. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts/dashboard.js"></script>
+</body>
+</html>
