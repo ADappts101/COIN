@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COIN - Create a Clan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Create a New Clan</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="clans.html">My Clans</a></li>
+                <li><a href="explore.html">Explore Clans</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="createClanForm">
+            <label for="clanName">Clan Name:</label>
+            <input type="text" id="clanName" required>
+            
+            <label for="clanDescription">Description:</label>
+            <textarea id="clanDescription" required></textarea>
+            
+            <label for="clanPrivacy">Privacy:</label>
+            <select id="clanPrivacy">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+            </select>
+
+            <button type="submit">Create Clan</button>
+        </form>
+        <p id="clanErrorMessage"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 COIN. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts/create-clan.js"></script>
+</body>
+</html>
