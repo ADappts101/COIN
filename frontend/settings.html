@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COIN - Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Settings</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="clans.html">My Clans</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="settings">
+            <h2>Account Settings</h2>
+            <label for="changePassword">Change Password:</label>
+            <input type="password" id="changePassword">
+            <button id="updatePassword">Update Password</button>
+
+            <h2>Notification Settings</h2>
+            <label>
+                <input type="checkbox" id="emailNotifications"> Email Notifications
+            </label>
+
+            <label>
+                <input type="checkbox" id="pushNotifications"> Push Notifications
+            </label>
+
+            <button id="saveSettings">Save Changes</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 COIN. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts/settings.js"></script>
+</body>
+</html>
