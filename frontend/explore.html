@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COIN - Explore Clans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Clans</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="clans.html">My Clans</a></li>
+                <li><a href="create-clan.html">Create Clan</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="clan-search">
+            <h2>Find a Clan</h2>
+            <input type="text" id="searchBar" placeholder="Search clans...">
+        </section>
+
+        <section class="clan-results">
+            <h2>Available Clans</h2>
+            <ul id="clanList">
+                <!-- Clans will be dynamically populated here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 COIN. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts/explore.js"></script>
+</body>
+</html>
